@@ -1,0 +1,152 @@
+---
+server:
+  port: 8002
+spring:
+  profiles: configServer1
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          ## 私库，ssh，需要ssh private-key
+          uri: git@github.com:wukang1/springcloud_config_server_private.git
+          search-paths: config-repo
+          label: master
+          ignore-local-ssh-settings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 注册中心地址
+    serviceUrl:
+      defaultZone: http://peer1:7101/eureka/,http://peer2:7102/eureka/,http://peer3:7103/eureka/
+
+---
+server:
+  port: 8003
+spring:
+  profiles: configServer2
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          ## 私库，ssh，需要ssh private-key
+          uri: git@github.com:wukang1/springcloud_config_server_private.git
+          search-paths: config-repo
+          label: master
+          ignore-local-ssh-settings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+          # 服务注册与发现相关配置
+eureka:
+  client:
+    # 注册中心地址
+    serviceUrl:
+      defaultZone: http://peer1:7101/eureka/,http://peer2:7102/eureka/,http://peer3:7103/eureka/
+
+
+

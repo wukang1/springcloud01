@@ -1,0 +1,4 @@
+GET http://localhost:7301/{%20/test/{name}}
+
+###
+

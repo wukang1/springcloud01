@@ -1,0 +1,29 @@
+# 端口号
+server:
+  port: 7201
+# 服务名称
+spring:
+  profiles: provider1
+  application:
+    name: eureka-provider
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 注册中心地址
+    serviceUrl:
+      defaultZone: http://peer1:7101/eureka/,http://peer2:7102/eureka/,http://peer3:7103/eureka/
+---
+# 端口号
+server:
+  port: 7202
+# 服务名称
+spring:
+  profiles: provider2
+  application:
+    name: eureka-provider
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 注册中心地址
+    serviceUrl:
+      defaultZone: http://peer1:7101/eureka/,http://peer2:7102/eureka/,http://peer3:7103/eureka/

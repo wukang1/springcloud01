@@ -1,0 +1,55 @@
+---
+# 端口号
+server:
+  port: 7301
+# 服务名称
+spring:
+  profiles: consumer1
+  application:
+    name: eureka-consumer
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 注册中心地址
+    serviceUrl:
+      defaultZone: http://peer1:7101/eureka/,http://peer2:7102/eureka/,http://peer3:7103/eureka/
+# 启用断路器
+feign:
+  hystrix:
+    enabled: true
+# 熔断器DashBoard: actuator在boot2.0调整后开关web端点的配置，*代表开启所有
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+---
+# 端口号
+server:
+  port: 7302
+# 服务名称
+spring:
+  profiles: consumer2
+  application:
+    name: eureka-consumer
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 注册中心地址
+    serviceUrl:
+      defaultZone: http://peer1:7101/eureka/,http://peer2:7102/eureka/,http://peer3:7103/eureka/
+# 启用断路器
+feign:
+  hystrix:
+    enabled: true
+# 熔断器DashBoard: actuator在boot2.0调整后开关web端点的配置，*代表开启所有
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+

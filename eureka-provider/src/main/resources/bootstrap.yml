@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      name: spring-cloud-config            #对应spring-cloud-config-dev.yml的{spring-cloud-config}部分
+      profile: dev                         #对应spring-cloud-config-dev.yml的{dev}部分
+  ## remove 下面代码已注释，因为不再通过URL直接访问配置中心，而是生产者->注册中心->配置中心->获得Git中的配置信息
+  #spring.cloud.config.uri = http://localhost:8001/         #配置中心的具体地址()
+      label: master                        #对应git的分支。如果配置中心使用的是本地存储，则该参数无用
+  ## add
+      discovery:
+        enabled: true                #true是从配置中心读取文件
+  ## add
+        service-id: config-server              #指定配置中心的service-id，便于扩展为高可用配置集群(目前已启用)
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 注册中心地址
+    serviceUrl:
+      defaultZone: http://peer1:7101/eureka/,http://peer2:7102/eureka/,http://peer3:7103/eureka/
