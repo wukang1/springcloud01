@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049ba6ee-aee5-4a81-82f8-5cf1bb3a58d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/JsoupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/RedisTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/NewJdk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/model/StoreCategoryBrandRela.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -29,19 +29,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="378">
+              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/JsoupTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/RedisTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/NewJdk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/JsoupTest.java">
+        <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/model/StoreCategoryBrandRela.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="242">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +141,6 @@
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/kk/configclient/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-provider/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/gateway/src/test/java/com/kk/gateway/GatewayApplicationTests.java" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer01/src/main/resources/application.yml" />
@@ -103,8 +149,11 @@
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/kk/gateway/filters/TokenFilter.java" />
         <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/RedisTool.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/JsoupTest.java" />
+        <option value="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/NewJdk.java" />
+        <option value="$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/model/StoreCategoryBrandRela.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -134,8 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,6 +243,16 @@
               <item name="eureka-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -209,7 +268,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586502140625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586584495489" />
     <property name="last_opened_file_path" value="D:/dangjia" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -219,12 +278,15 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kk.eurekaconsumer01.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kk.eurekaprovider.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\test\springcloud01\eureka-provider\src\main\resources" />
       <recent name="E:\test\springcloud01\eureka-server\src\main\resources" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.kk.eurekaconsumer01.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,7 +307,20 @@
     </option>
     <option name="contentProportion" value="0.19372295" />
   </component>
-  <component name="RunManager" selected="JUnit.JsoupTest.pachong3">
+  <component name="RunManager" selected="Application.HelloController">
+    <configuration name="HelloController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.eurekaprovider.controller.HelloController" />
+      <module name="eureka-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.eurekaprovider.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kk.eurekaprovider.controller.RedisTool" />
       <module name="eureka-provider" />
@@ -373,21 +448,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServerApplication-peer1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true">
-      <module name="eureka-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kk.eurekaserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.eurekaserver.EurekaServerApplication" />
-      <option name="ACTIVE_PROFILES" value="peer1" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EurekaServerApplication-peer2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="eureka-server" />
       <extension name="coverage">
@@ -445,19 +505,19 @@
       <item itemvalue="Spring Boot.ConfigServerApplication-configServer2" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication-peer1" />
       <item itemvalue="JUnit.RedisTool.test" />
       <item itemvalue="Application.RedisTool" />
       <item itemvalue="JUnit.RedisTool" />
       <item itemvalue="JUnit.JsoupTest.pachong3" />
+      <item itemvalue="Application.HelloController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloController" />
         <item itemvalue="JUnit.JsoupTest.pachong3" />
         <item itemvalue="JUnit.RedisTool" />
         <item itemvalue="JUnit.RedisTool.test" />
         <item itemvalue="Application.RedisTool" />
-        <item itemvalue="Spring Boot.EurekaServerApplication-peer1" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +543,8 @@
       <workItem from="1585277126622" duration="7073000" />
       <workItem from="1585361436241" duration="16589000" />
       <workItem from="1586242901946" duration="4799000" />
-      <workItem from="1586327769912" duration="15226000" />
+      <workItem from="1586327769912" duration="18028000" />
+      <workItem from="1586567209412" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1585539964673</created>
@@ -492,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585539964673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redis分布式锁 + jsoup">
+      <created>1586502431791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586502431791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -528,12 +596,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148934000" />
+    <option name="totallyTimeSpent" value="153486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -543,7 +612,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37024972" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37024972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,34 +646,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="redis分布式锁 + jsoup" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis分布式锁 + jsoup" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-consumer02/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="96" lean-forward="true" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix-dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java/com/kk/hystrixdashboard/HystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/test/java/com/kk/configserver/ConfigServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -693,13 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -900,25 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/RedisTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1970#1971#0" expanded="true" />
-            <element signature="e#2011#2012#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/jsoup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/jsoup.java" />
     <entry file="jar://D:/maven/LocalWarehouse/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/Connection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -933,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -947,13 +964,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/JsoupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="607">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/RedisTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/controller/NewJdk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/maven/LocalWarehouse/org/springframework/boot/spring-boot-dependencies/2.1.13.RELEASE/spring-boot-dependencies-2.1.13.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="2599" column="6" selection-start-line="2599" selection-start-column="6" selection-end-line="2599" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/com/kk/eurekaprovider/model/StoreCategoryBrandRela.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
