@@ -19,7 +19,7 @@ import javax.persistence.Table;
  */
 @Data
 @Entity
-@Table(name = "cb_store_category_brand_rela")
+//@Table(name = "cb_store_category_brand_rela")
 @ApiModel(description = "商家类别品牌关联 商家经营范围")
 @FieldNameConstants(prefix = "")
 public class StoreCategoryBrandRela extends BaseEntity {

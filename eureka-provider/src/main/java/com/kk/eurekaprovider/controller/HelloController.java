@@ -1,10 +1,15 @@
 package com.kk.eurekaprovider.controller;
 
+import com.kk.eurekaprovider.mapper.PubRegionMapper;
+import com.kk.eurekaprovider.model.PubRegion;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
+    @Autowired
+    private PubRegionMapper pubRegionMapper;
 
     @Value("${server.port}")
     private Integer port;
@@ -33,5 +40,12 @@ public class HelloController {
         System.out.println("userName"+userName+", passWord"+passWord);
         return "添加成功";
     }
+
+    @RequestMapping("/queryPubRegion")
+    public List<PubRegion> queryPubRegion(){
+        List<PubRegion> pubRegions = pubRegionMapper.selectAll();
+        return pubRegions;
+    }
+
 
 }

@@ -15,5 +15,31 @@
     <packaging>jar</packaging>
     <description>子模块生产者</description>
 
+    <!--<properties>-->
+        <!--<mysql.version>5.1.44</mysql.version>-->
+    <!--</properties>-->
+
+    <!--<dependencies>-->
+        <!--&lt;!&ndash;druid&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>druid-spring-boot-starter</artifactId>-->
+            <!--<version>1.1.10</version>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;pageHelper&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.pagehelper</groupId>-->
+            <!--<artifactId>pagehelper-spring-boot-starter</artifactId>-->
+            <!--<version>1.2.3</version>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash;mysql&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--<version>${mysql.version}</version>-->
+            <!--<scope>compile</scope>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
 
 </project>
